@@ -1,0 +1,149 @@
+[debug] [2021-11-21T14:25:42.512Z] ----------------------------------------------------------------------
+[debug] [2021-11-21T14:25:42.515Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\simon\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-11-21T14:25:42.516Z] CLI Version:   9.22.0
+[debug] [2021-11-21T14:25:42.516Z] Platform:      win32
+[debug] [2021-11-21T14:25:42.516Z] Node Version:  v14.18.1
+[debug] [2021-11-21T14:25:42.517Z] Time:          Sun Nov 21 2021 17:25:42 GMT+0300 (East Africa Time)
+[debug] [2021-11-21T14:25:42.517Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-11-21T14:25:42.521Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2021-11-21T14:25:42.557Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-11-21T14:25:42.558Z] > authorizing via signed-in user (simonkamau690@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\simon\Desktop\android app
+
+[debug] [2021-11-21T14:25:43.643Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2021-11-21T14:25:43.644Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-11-21T14:26:03.341Z] > refreshing access token with scopes: []
+[debug] [2021-11-21T14:26:03.342Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-11-21T14:26:03.890Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","date":"Sun, 21 Nov 2021 14:26:03 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-11-21T14:26:03.977Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-11-21T14:26:04.865Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2021-11-21T14:26:04.866Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project pefanalyzer (Pefanalyzer) 
+[info] 
+=== Remoteconfig Setup
+[debug] [2021-11-21T14:28:57.465Z] Error: C:\Users\simon\Desktop\android app\C:\Users\simon\Desktop\android app contains invalid WIN32 path characters.
+    at Object.mkdirsSync (C:\Users\simon\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\mkdirs\mkdirs-sync.js:18:22)
+    at Object.createFileSync (C:\Users\simon\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\ensure\file.js:40:11)
+    at Config.writeProjectFile (C:\Users\simon\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:144:12)
+    at Object.doSetup [as remoteconfig] (C:\Users\simon\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\remoteconfig.js:30:12)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async init (C:\Users\simon\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:19:9)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2021-11-21T14:37:07.457Z] ----------------------------------------------------------------------
+[debug] [2021-11-21T14:37:07.460Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\simon\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-11-21T14:37:07.461Z] CLI Version:   9.23.0
+[debug] [2021-11-21T14:37:07.461Z] Platform:      win32
+[debug] [2021-11-21T14:37:07.461Z] Node Version:  v14.18.1
+[debug] [2021-11-21T14:37:07.462Z] Time:          Sun Nov 21 2021 17:37:07 GMT+0300 (East Africa Time)
+[debug] [2021-11-21T14:37:07.462Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-11-21T14:37:07.479Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-11-21T14:37:07.479Z] > authorizing via signed-in user (simonkamau690@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\simon\Desktop\android app
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2021-11-21T14:39:49.362Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-11-21T14:39:49.362Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-11-21T14:39:50.148Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Sun, 21 Nov 2021 14:39:50 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-11-21T14:39:50.228Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects  
+ {"projectId":"firebase projects:create","name":"waweru app(123456)"}
+[debug] [2021-11-21T14:39:52.226Z] <<< HTTP RESPONSE 400 {"vary":"X-Origin, Referer, Origin,Accept-Encoding","content-type":"application/json; charset=UTF-8","date":"Sun, 21 Nov 2021 14:39:52 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1292","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-11-21T14:39:52.226Z] <<< HTTP RESPONSE BODY {"error":{"code":400,"message":"Request contains an invalid argument.","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.BadRequest","fieldViolations":[{"field":"project_id","description":"Cannot create domain prefixed projects"},{"field":"display_name","description":"project display name contains invalid characters"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"url":"https://cloud.google.com/resource-manager/reference/rest/v1/projects"}]}]}}
+[debug] [2021-11-21T14:39:52.799Z] FirebaseError: HTTP Error: 400, Request contains an invalid argument.
+    at module.exports (C:\Users\simon\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Request._callback (C:\Users\simon\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:41:35)
+    at Request.self.callback (C:\Users\simon\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:400:28)
+    at Request.emit (domain.js:475:12)
+    at Request.<anonymous> (C:\Users\simon\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:400:28)
+    at Request.emit (domain.js:475:12)
+    at IncomingMessage.<anonymous> (C:\Users\simon\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:519:28)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:475:12)
+    at endReadableNT (internal/streams/readable.js:1334:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
+[debug] [2021-11-22T05:06:37.850Z] ----------------------------------------------------------------------
+[debug] [2021-11-22T05:06:37.864Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\simon\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-11-22T05:06:37.866Z] CLI Version:   9.23.0
+[debug] [2021-11-22T05:06:37.867Z] Platform:      win32
+[debug] [2021-11-22T05:06:37.868Z] Node Version:  v14.18.1
+[debug] [2021-11-22T05:06:37.870Z] Time:          Mon Nov 22 2021 08:06:37 GMT+0300 (East Africa Time)
+[debug] [2021-11-22T05:06:37.871Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-11-22T05:06:37.949Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-11-22T05:06:37.950Z] > authorizing via signed-in user (simonkamau690@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\simon\Desktop\android app
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2021-11-22T05:07:47.588Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-11-22T05:07:47.589Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-11-22T05:07:47.768Z] FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+    at invalidCredentialError (C:\Users\simon\AppData\Roaming\npm\node_modules\firebase-tools\lib\auth.js:141:12)
+    at refreshTokens (C:\Users\simon\AppData\Roaming\npm\node_modules\firebase-tools\lib\auth.js:448:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async createCloudProject (C:\Users\simon\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:175:26)
+    at async Object.createFirebaseProjectAndLog (C:\Users\simon\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:46:9)
+    at async promptAndCreateNewProject (C:\Users\simon\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:32:12)
+    at async Object.doSetup [as project] (C:\Users\simon\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:87:27)
+    at async init (C:\Users\simon\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:19:9)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
